@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Myutoon from './Mybutoon';
+import MyInput from './MyInput';
+import MyForm from './MyForm';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         >
           Learn React
         </a>
+        <Myutoon />
+        <MyInput />
+        <MyForm />
       </header>
     </div>
   );
